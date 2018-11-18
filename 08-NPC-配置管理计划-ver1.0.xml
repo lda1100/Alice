@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.9" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《配置管理计划》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:---Q6QB-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><配置管理计划 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="Alice-拯救你的孤独" 项目标识="0180929" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>NPC201810180008</文件标识>
+			<当前版本>ver1.0</当前版本>
+			<作者>
+				<姓名>李迪安、韩定、邱弘毅、孙伊凡</姓名>
+				<学号>2015011171，2015011170，2015011175，2015011191</学号>
+				<团队>NPC配置组</团队>
+			</作者>
+			<完成日期>2018-10-18</完成日期>
+			<版本更新信息>2018-10-18 完成ver1.0</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员><div xmlns="http://www.w3.org/1999/xhtml">配置管理人员（制定配置管理计划；创建和维护配置库；发布配置项及基线）、</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目经理（授权；批准；保证一致性、被审批、被批准等）、</div>
+<div xmlns="http://www.w3.org/1999/xhtml">开发人员、设计人员、测试人员。</div></使用人员>
+			<编写目的><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">本计划的目的是保证项目开发过程中软件产品的完整性和一致性，保证在项目组中有计划的实施配置管理。与此同时，定义支持配置管理的活动及工具等。</font></div></div></编写目的>
+			<背景><div xmlns="http://www.w3.org/1999/xhtml">Alice，一款图文社交App。图文社交，即以互联网为依托，图文分享信息为主要表现形式来建立人与人之间的相互联系的一种社交模式。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">通过识别要置于配置管理之下的配置项和将要建立基线的点，可以确定工作的需求范围和时间。在此背景之下，制定本配置管理计划。</font></div></背景>
+			<定义与缩写>
+				<术语>基线</术语>
+				<解释><div xmlns="http://www.w3.org/1999/xhtml">基线是软件文档或源码(或其它产出物)的一个稳定版本,它是进一步开发的基础。</div></解释>
+			<术语>配置项</术语><解释>软件生存周期各个阶段活动的产物经审批后即可称之为软件配置项</解释></定义与缩写>
+			<参考资料>
+				<条目></条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<软件配置管理>
+		<组织职责和接口>
+			<说明>Alice的开发期间，由配置组（SCMG）和变更控制管理委员会（CCB）负责配置管理工作。人员组成和配置管理角色见下表2-1.</说明>
+			
+		<配置管理的角色和职责>
+				<角色>配置管理员</角色>
+				<人员>李迪安</人员>
+				<职责与工作范围><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">（1）制定《配置管理计划》</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">（2）创建和维护配置库</div></职责与工作范围>
+			</配置管理的角色和职责><配置管理的角色和职责>
+									<角色>CCB负责人</角色>
+									<人员>孙伊凡</人员>
+									<职责与工作范围><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">（1）审批《配置管理计划》</font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml">（2）审批重大的变更</div></职责与工作范围>
+								</配置管理的角色和职责><配置管理的角色和职责>
+									<角色>CCB成员</角色>
+									<人员>韩定</人员>
+									<职责与工作范围>审批某些配置项或基线的变更</职责与工作范围>
+								</配置管理的角色和职责><配置管理的角色和职责>
+									<角色>CCB成员</角色>
+									<人员>邱弘毅</人员>
+									<职责与工作范围>审批某些配置项或基线的变更</职责与工作范围>
+								</配置管理的角色和职责></组织职责和接口>
+		<工具和环境>
+			<说明><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">该项目配置管理过程所需要的硬件环境资源如表2-2所示。</font></div>
+<div> </div>
+<div align="center"><font size="2" face="宋体"><strong>表2-2配置管理软硬件资源</strong></font></div>
+<div align="center">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 218.25pt; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" width="582" border="1">
+<colgroup>
+<col style="WIDTH: 209px"/>
+<col style="WIDTH: 373px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>配置管理软硬件资源</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>说明</strong></font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div align="left"><font size="2" face="宋体"><em>Alice社交系统</em></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><em>北京信息科技大学软件工程1501班-NPC团队</em></font></div>
+<div><font size="2" face="宋体"><em></em></font> </div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><em>本地服务器</em></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><em>内存、外存、CPU等</em></font></div>
+<div><font size="2" face="宋体"><em></em></font> </div></font></td></tr></tbody></table></div>
+<div> </div></div></说明>
+			<受控库>
+				<结构><div xmlns="http://www.w3.org/1999/xhtml">软件受控库是指在软件生存周期的某一个阶段结束时，存放作为阶段产品的信息库；软件配置管理就是对软件受控库中的各个软件项进行管理，因此软件受控库也叫软件配置管理库。</div>
+<div xmlns="http://www.w3.org/1999/xhtml"> </div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">图2-1 受控库的目录结构</div>
+<div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">MYKYDPXT_CL</font></div>
+<div><font size="2" face="宋体">---需求分析</font></div>
+<div><font size="2" face="宋体">---系统设计</font></div>
+<div><font size="2" face="宋体">---详细设计</font></div>
+<div><font size="2" face="宋体">---实现</font></div>
+<div><font size="2" face="宋体">   ---代码</font></div>
+<div><font size="2" face="宋体">   ---安装程序</font></div>
+<div><font size="2" face="宋体">   ---数据库结构</font></div>
+<div><font size="2" face="宋体">---测试</font></div>
+<div><font size="2" face="宋体">   ---单元测试</font></div>
+<div><font size="2" face="宋体">   ---系统测试</font></div>
+<div><font size="2" face="宋体">   ---验收测试</font></div>
+<div><font size="2" face="宋体">---产品交付</font></div>
+<div><font size="2" face="宋体">   ---用户文档</font></div>
+<div><font size="2" face="宋体">   ---产品包装</font></div>
+<div><font size="2" face="宋体">---配置与变更管理</font></div>
+<div><font size="2" face="宋体">   ---变更管理</font></div>
+<div><font size="2" face="宋体">   ---配置报告</font></div>
+<div><font size="2" face="宋体">---项目管理</font></div>
+<div><font size="2" face="宋体">   ---合同</font></div>
+<div><font size="2" face="宋体">   ---项目计划</font></div>
+<div><font size="2" face="宋体">   ---会议纪要</font></div>
+<div><font size="2" face="宋体">---环境</font></div>
+<div><font size="2" face="宋体">   ---工具产品列表</font></div>
+<div><font size="2" face="宋体">   ---资料文档</font></div></div></结构>
+				<访问权限><div align="center" xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">表2-3受控库权限设置</font></div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 185.625pt; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" width="496" border="1">
+<colgroup>
+<col style="WIDTH: 104px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 120px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 79px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 40.5pt">
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>目录结构</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>李迪安</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>Alice图文交互平台系统项目组成员</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>韩定</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>邱弘毅</strong></font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">需求分析</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">总体设计</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">实施</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">测试</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">部署</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">配置与变更管理</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">项目管理</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">环境</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr></tbody></table></div></访问权限>
+			</受控库>
+			<开发库>
+				<结构><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">软件开发库是指在软件生存周期的某一个阶段期间，存放与该阶段软件开发工作有关的软件工作产品的信息库。</font></div>
+<div> </div>
+<div align="center">图2-2 开发库的目录结构</div>
+<div><font size="2" face="宋体">MYKYDPXT_DL</font></div>
+<div><font size="2" face="宋体">---需求分析</font></div>
+<div><font size="2" face="宋体">---系统设计</font></div>
+<div><font size="2" face="宋体">---详细设计</font></div>
+<div><font size="2" face="宋体">---系统原型</font></div>
+<div><font size="2" face="宋体">---测试区</font></div>
+<div><font size="2" face="宋体">   ---单元测试</font></div>
+<div><font size="2" face="宋体">   ---系统测试</font></div>
+<div><font size="2" face="宋体">---集成工作区 </font></div>
+<div><font size="2" face="宋体">---私有工作区</font><font size="2" face="宋体">  </font><font size="2" face="宋体">                                         </font></div>
+<div><font size="2" face="宋体">---项目管理</font></div>
+<div><font size="2" face="宋体">   ---项目计划</font></div>
+<div><font size="2" face="宋体">   ---会议纪要</font></div>
+<div><font size="2" face="宋体">---变更区                 --变更工作产品存储区</font></div>
+<div><font size="2" face="宋体">---源程序</font></div></div></结构>
+				<访问权限><div align="left" xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">
+<div><font size="2" face="宋体">软件开发库是指在软件生存周期的某一个阶段期间，存放与该阶段软件开发工作有关的软件工作产品的信息库。</font></div></font></div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">表2-4开发库的权限设置</font></div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 177.75pt; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" width="475" border="1">
+<colgroup>
+<col style="WIDTH: 104px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 84px"/>
+<col style="WIDTH: 94px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>目录结构</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>李迪安</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong><font face="宋体"><strong>Alice</strong></font>图文社交平台系统项目组成员</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>韩定</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>邱弘毅</strong></font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">需求</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">分析设计</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">实施</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">测试</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">部署</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">项目管理</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr></tbody></table></div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 177.75pt; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" width="475" border="1">
+<colgroup>
+<col style="WIDTH: 104px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 84px"/>
+<col style="WIDTH: 94px"/></colgroup>
+<tbody>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">环境</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">读/写</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr></tbody></table></div></访问权限>
+			</开发库>
+			<产品库>
+				<结构><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">软件产品库是指在软件生存周期的组装与系统测试阶段结束后，存放最终产品而后交付给用户运行或在现场安装的软件的库。</font></div>
+<div>
+<div><font size="2" face="宋体"></font> </div>
+<div align="center"><font size="2" face="宋体">图2-3 产品库的目录结构</font> </div>
+<div><font size="2" face="宋体">MHKYDPXT-_PL</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li><font size="2" face="宋体">---用户文档</font></li></ul>
+<div><font size="2" face="宋体">      ---程序</font></div>
+<div><font size="2" face="宋体">         ---客户端安装程序</font></div>
+<div>         ---服务器端安装</div>
+<div>         ---数据库结构</div></div></div></结构>
+				<访问权限><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">表2-5产品库的权限设置</font></div></div>
+<div align="center" xmlns="http://www.w3.org/1999/xhtml">
+<table tabIndex="-1" class="MsoNormalTable msoUcTable" style="BORDER-TOP-STYLE: none; WORD-WRAP: break-word; BORDER-LEFT-STYLE: none; WIDTH: 551px; BORDER-COLLAPSE: collapse; TABLE-LAYOUT: fixed; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none" borderColor="#000000" cellPadding="0" border="1">
+<colgroup>
+<col style="WIDTH: 90px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 94px"/>
+<col style="WIDTH: 96px"/>
+<col style="WIDTH: 79px"/></colgroup>
+<tbody>
+<tr style="MIN-HEIGHT: 41.25pt">
+<td vAlign="top" style="BORDER-RIGHT-COLOR: "><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>目录结构</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>李迪安</strong></font></div></font></td>
+<td vAlign="top" style="BORDER-LEFT-COLOR: "><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong><font face="宋体"><strong>Alice</strong></font>图文社交平台系统项目组成员</strong></font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>孙伊凡</strong></font></div></font></td>
+<td vAlign="top">
+<div><font face="宋体"><strong>韩定</strong></font></div><!--EndFragment--></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体"><strong>邱弘毅</strong></font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">用户文档</font></div></font></td>
+<td vAlign="top" style="BORDER-TOP-COLOR: "><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">不可读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">不可读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr>
+<tr>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">程序</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">完全控制</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">不可读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">不可读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td>
+<td vAlign="top"><font size="2" face="宋体">
+<div><font size="2" face="宋体">只读</font></div></font></td></tr></tbody></table></div></访问权限>
+			</产品库>
+		</工具和环境>
+	</软件配置管理>
+	<配置管理活动>
+		<说明>配置标识，配置和变更控制，配置状态统计。</说明>
+		<配置标识>
+			<文档标识方法>
+				<基线产品>
+					<文档>软件需求说明书</文档>
+					<命名>《Alice软件需求说明书》版本号V1.0</命名>
+					<编号>Alice-SRS-V1.0</编号>
+					<备注>SRS(Software Requirements Specification)</备注>
+				</基线产品>
+				<基线产品>
+									<文档>系统设计文档</文档>
+									<命名>《Alice软件系统设计文档》V1.0</命名>
+									<编号>Alice-SDD-V1.0</编号>
+									<备注>SDD(System Design Document)</备注>
+								</基线产品><基线产品>
+									<文档>用户使用手册</文档>
+									<命名>《Alice用户使用手册》 V1.0</命名>
+									<编号>Alice-UG-V1.0</编号>
+									<备注>UG(User’s Guide)</备注>
+								</基线产品><基线产品>
+									<文档>测试用例</文档>
+									<命名>《Alice测试用例》 V1.0</命名>
+									<编号>Alice-TC-V1.0</编号>
+									<备注>TF(Testing Case)</备注>
+								</基线产品><基线产品>
+									<文档>系统测试报告</文档>
+									<命名>《Alice测试报告》 V1.0</命名>
+									<编号>Alice-STR-V1.0</编号>
+									<备注>STR(System Testing Report )</备注>
+								</基线产品>
+			<非基线产品>
+					<文档>软件开发计划</文档>
+					<命名>《Alice软件开发计划》 版本号</命名>
+					<编号>Alice-SDP-V1.0</编号>
+					<备注>SDP（Software DevelopmentPlan)</备注>
+				</非基线产品><非基线产品>
+									<文档>项目测试计划</文档>
+									<命名>《Alice项目测试计划》 版本号</命名>
+									<编号>Alice-PTP-V1.0</编号>
+									<备注>PTP(Project Testing Plan)</备注>
+								</非基线产品><非基线产品>
+									<文档>配置管理计划</文档>
+									<命名>《Alice软件配置管理计划》 版本号</命名>
+									<编号>Alice-SCMP-V1.0</编号>
+									<备注>SCMP(SoftwareConfiguration Management Plan)</备注>
+								</非基线产品><非基线产品>
+									<文档>质量保证计划</文档>
+									<命名>《Alice软件质量保证计划》 版本号</命名>
+									<编号>Alice-SQAP-V1.0</编号>
+									<备注>SQAP(Software Quality Assurance Plan)</备注>
+								</非基线产品><非基线产品>
+									<文档>变更申请单</文档>
+									<命名>《变更申请单》</命名>
+									<编号>Alice-(变更项英文名缩写)</编号>
+									<备注></备注>
+								</非基线产品><非基线产品>
+									<文档>配置管理状态报告</文档>
+									<命名>《配置管理状态报告》</命名>
+									<编号>Alice-SR</编号>
+									<备注>SR(State Report)</备注>
+								</非基线产品><非基线产品>
+									<文档>问题报告</文档>
+									<命名>《问题报告》</命名>
+									<编号>Alice-PR</编号>
+									<备注>PR(Problem Report)</备注>
+								</非基线产品><非基线产品>
+									<文档>基线建立-变更通告</文档>
+									<命名>《基线建立-变更通告》</命名>
+									<编号>Alice-BR</编号>
+									<备注>BR(Baseline Report)</备注>
+								</非基线产品><非基线产品>
+									<文档>物理配置审核表</文档>
+									<命名>《物理配置审核表》</命名>
+									<编号>Alice-PA</编号>
+									<备注>PA(PhysicalAuditing)</备注>
+								</非基线产品><非基线产品>
+									<文档>功能配置审核表 </文档>
+									<命名>《功能配置审核表》</命名>
+									<编号>Alice-FA</编号>
+									<备注>FA(Function Auditing)</备注>
+								</非基线产品><非基线产品>
+									<文档>内部验收申请</文档>
+									<命名>《内部验收申请》</命名>
+									<编号>Alice-IA</编号>
+									<备注>IA(Inside  Acceptance)</备注>
+								</非基线产品></文档标识方法>
+			<代码标识方法><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">代码的标识方法参见《软件设计编码规范》的程序命名规则。</font></div></代码标识方法>
+			<项目基线>
+				<阶段>
+					<阶段点></阶段点>
+					<基线>
+						<基线名称>需求分析阶段</基线名称>
+						<基线标识>系统1.0-B-Dis-040806</基线标识>
+						
+						<包含内容>
+							<产品名称>1.《Alice系统 软件需求规约》</产品名称>
+							<入库时间>2018-09-07</入库时间>
+						</包含内容><包含内容>
+									<产品名称>2.《Alice系统1.0词汇表》</产品名称>
+									<入库时间>2018-09-07</入库时间>
+								</包含内容><包含内容>
+									<产品名称>3.《Alice系统1.0用例实现规约》</产品名称>
+									<入库时间>2018-09-07</入库时间>
+								</包含内容><预计基线建立时间>2018-09-07</预计基线建立时间>
+					</基线>
+				</阶段>
+			<阶段>
+									<阶段点>设计阶段</阶段点>
+									<基线>
+										<基线名称>设计基线</基线名称>
+										<基线标识>Alice系统1.0-B-Des-040807</基线标识>
+										
+										<包含内容>
+											<产品名称>1.《Alice系统1.0Rose设计文档》</产品名称>
+											<入库时间>2018-09-08</入库时间>
+										</包含内容><包含内容>
+									<产品名称>2.《Alice系统1.0数据子典》</产品名称>
+									<入库时间>2018-09-08</入库时间>
+								</包含内容><包含内容>
+									<产品名称>3.《Alice系统1.0软件构架文档》</产品名称>
+									<入库时间>2018-09-08</入库时间>
+								</包含内容><预计基线建立时间>2018-09-08</预计基线建立时间>
+									</基线>
+								</阶段><阶段>
+									<阶段点>实现阶段</阶段点>
+									<基线>
+										<基线名称>产品基线</基线名称>
+										<基线标识>Alice系统1.0-B-Pro-040905</基线标识>
+										
+										<包含内容>
+											<产品名称>《源代码和程序》</产品名称>
+											<入库时间>2018-09-27</入库时间>
+										</包含内容><包含内容>
+									<产品名称>《Alice系统1.0用户手册》</产品名称>
+									<入库时间>2018-10-27</入库时间>
+								</包含内容><预计基线建立时间>2018-10-27</预计基线建立时间>
+									</基线>
+								</阶段></项目基线>
+			<配置项的版本管理><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">在项目开发过程中所产生的工作产品的变更，遵循《配置管理规程》V2.0中2.24节的变更处理和审批流程。开发过程中所产生的各种记录、报告、和会议纪要无需经过评审和批准可直接纳入受控库。</font></div></配置项的版本管理>
+		</配置标识>
+		<配置和变更控制>
+			<变更请求的处理和审批><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">该项目的CCB组成人员见表2-1，CCB的组成人员所遵从的成员资格见《配置管理规程》的7.1节CCB组成。</font></div></变更请求的处理和审批>
+			<变更控制委员会><div xmlns="http://www.w3.org/1999/xhtml"><font size="2" face="宋体">该项目的CCB组成人员见表2-1，CCB的组成人员所遵从的成员资格见《配置管理规程》的7.1节CCB组成。</font></div></变更控制委员会>
+		</配置和变更控制>
+		<配置状态统计>
+			<项目介质存储和发布进程><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体">该项目的备份策略是：每天对项目的三个配置库做增量备份，每周做全备份。备份介质是硬盘；备份人是服务器的系统管理员；备份路径是：  </font></div>
+<div><font size="2" face="宋体">由项目经理负责提出产品的发布、由CCB主席负责批准，然后再CQ中进行产品的发布。</font></div></div></项目介质存储和发布进程>
+			<报告和审核><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="2" face="宋体"><em>周期性报告</em></font></div>
+<div><font size="2" face="宋体">根据该项目的规模，定于每月15号由该项目的配置管理员向相关人员发布《配置管理状态报告》。具体内容见《配置管理状态报告》模版。</font></div>
+<div><font size="2" face="宋体"><em>非周期性报告</em></font></div>
+<div><font size="2" face="宋体">非周期性的报告有《基线建立通告》、《问题报告》、《工作产品出入库通告》，这些报告将根据实际发生的情况由该项目的配置管理员向相关人员进行实时的报告。</font></div>
+<div><font size="2" face="宋体"><em>审核</em></font></div>
+<div><font size="2" face="宋体">项目在系统测试结束后，由何玉洁和张红共同完成功能审核并填写《功能配置审核</font></div>
+<div><font size="2" face="宋体">表》；由韩定和邱弘毅共同完成物理审核并填写《物理配置审核表》。</font></div></div></报告和审核>
+		</配置状态统计>
+	</配置管理活动>
+	<里程碑>
+									<里程碑名称>需求分析</里程碑名称>
+									<提交工作产品>《软件过程定义》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-10-18</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《项目开发计划》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-10-18</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《质量保证计划》</提交工作产品>
+									<提交人>刘青松</提交人>
+									<提交时间>2018-10-18</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《配置管理计划》</提交工作产品>
+									<提交人>李迪安</提交人>
+									<提交时间>2018-10-18</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称>设计</里程碑名称>
+									<提交工作产品>《系统设计文档》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-10-25</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称>编码</里程碑名称>
+									<提交工作产品>《源代码及程序》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-11-23</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《数据库文件》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-11-23</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称>集成测试</里程碑名称>
+									<提交工作产品>《测试用例》</提交工作产品>
+									<提交人>刘青松</提交人>
+									<提交时间>2018-10-25</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《测试报告》</提交工作产品>
+									<提交人>刘青松</提交人>
+									<提交时间>2018-11-23</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称>验收</里程碑名称>
+									<提交工作产品>《内部验收申请》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-11-30</提交时间>
+								</里程碑><里程碑>
+									<里程碑名称></里程碑名称>
+									<提交工作产品>《功能配置审核表》</提交工作产品>
+									<提交人>裴骕</提交人>
+									<提交时间>2018-11-30</提交时间>
+								</里程碑><里程碑>
+		<里程碑名称></里程碑名称>
+		<提交工作产品>《物理配置审核表》</提交工作产品>
+		<提交人>裴骕</提交人>
+		<提交时间>2018-11-30</提交时间>
+	</里程碑>
+	<培训和资源>网络、服务器、客户端（手机）</培训和资源>
+	<分包商和厂商软件控制>无</分包商和厂商软件控制>
+</配置管理计划>

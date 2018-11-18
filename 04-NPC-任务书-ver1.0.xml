@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.4" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《任务书》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:-kQV-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><任务书 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="Alice-拯救你的孤独" 项目标识="0180929" version="1.0">
+		<状态与版本信息>
+			<文件状态></文件状态>
+			<文件标识></文件标识>
+			<当前版本></当前版本>
+			<作者>
+				<姓名>王世琦</姓名>
+				<学号>2015011157</学号>
+				<团队>NPC</团队>
+			</作者>
+			<完成日期></完成日期>
+			<版本更新信息></版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员></使用人员>
+			<编写目的></编写目的>
+			<背景></背景>
+		</引言>
+	</首部>
+	<下达人>王世琦</下达人>
+	<下达时间>2018-10-18</下达时间>
+	<项目经理>王世琦</项目经理>
+	<项目计划提交期限>2018-10-23</项目计划提交期限>
+	<送达人>NPC软件开发有限公司-Alice项目组全体成员</送达人>
+	<项目目标>
+		<目标条目>1通用功能 1.1 注册：用户实名注册，可以绑定手机号，邮箱，或者qq微信微博等账号 <font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 1.2 发布信息：可以分享文字，图片，视频，音频或链接，可以图文搭配，音频搭配等，有质量的记录生活；可以分组发布选择内容可见性 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 1.3 交友互动：允许添加好友，删除好友，屏蔽好友等，好友之间可互相点赞评论分享 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 1.4 推荐：根据用户的搜索情况，可以推送相关可能感兴趣的信息 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 1.5 收藏：自己感兴趣的部分可以收藏</font></目标条目><目标条目><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"></font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">安全功能 2.1 管理员：有审核机制，不允许用户在社交平台上发布任何低俗或涉嫌诈骗等信息，严重者封号 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 2.2 用户：有举报机制，可以反馈不良信息提交至举报平台</font></目标条目><目标条目><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"></font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml">界面设计 3.1 面向群体为青年人群分享记录生活点滴，界面主基调以清亮活泼为主 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"> 3.2 允许更换界面主题 </font><font size="2" face="宋体" xmlns="http://www.w3.org/1999/xhtml"></font></目标条目>
+	</项目目标>
+	<项目范围>
+		<项目性质>订单软件（公司外部项目）</项目性质>
+		<项目组成><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">1.项目计划过程</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2.需求规格定义</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.系统设计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.详细设计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">5.编码</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">6.系统测试</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">7.产品交付</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8.维护</div></项目组成>
+		<项目要求>在期限截止前向甲方提交完整的软件和解决方案</项目要求>
+		<项目范围特殊说明>无</项目范围特殊说明>
+	</项目范围>
+	<项目输入>
+		<输入条目>文字</输入条目><输入条目>图片</输入条目><输入条目>语音</输入条目><输入条目>视频</输入条目><输入条目>其他媒体格式</输入条目>
+	</项目输入>
+	<项目用户>所有人</项目用户>
+	<与其他项目关系>无</与其他项目关系>
+	<项目限制>
+		<完成时间>2018-12-06</完成时间>
+		<资金>6万元人名币</资金>
+		<资源>网络、服务器、客户端（手机）</资源>
+		<实现限制>无</实现限制>
+	</项目限制>
+	<其他></其他>
+</任务书>

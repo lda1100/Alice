@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution solutionVersion="1.0.0.4" PIVersion="1.0.0.0" href="file:///D:\教学\软件项目实践\软件项目实践\文档模板\《软件过程定义》模板.xsn" name="urn:schemas-microsoft-com:office:infopath:--f7-J9-Qo:" language="zh-cn" productVersion="15.0.0" ?><?mso-application progid="InfoPath.Document"?><软件过程定义 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<首部 项目名称="Alice-拯救你的孤独" 项目标识="0180929" version="1.0">
+		<状态与版本信息>
+			<文件状态>正式发布</文件状态>
+			<文件标识>NPC201810180005</文件标识>
+			<当前版本>ver1.0</当前版本>
+			<作者>
+				<姓名>张涛，吴凡 </姓名>
+				<学号>2015011185，2015011207</学号>
+				<团队>NPC开发组</团队>
+			</作者>
+			<完成日期>2018-10-18</完成日期>
+			<版本更新信息>2018-10-18 完成ver1.0</版本更新信息>
+		</状态与版本信息>
+		<引言>
+			<使用人员><div xmlns="http://www.w3.org/1999/xhtml">项目经理</div>
+<div xmlns="http://www.w3.org/1999/xhtml">系统分析员</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目管理以及质保人员</div>
+<div xmlns="http://www.w3.org/1999/xhtml">项目开发人员</div></使用人员>
+			<编写目的><div xmlns="http://www.w3.org/1999/xhtml">为用户提供一个开发模型和开发过程规范</div>
+<div xmlns="http://www.w3.org/1999/xhtml">确定各阶段项目管理人员、质量保证人员和技术开发人员的任务</div></编写目的>
+			<背景>大三第一学期软件工程综合开发实践</背景>
+			<定义与缩写>
+				<术语>SE-TM生存期模型</术语>
+				<解释><em xmlns="http://www.w3.org/1999/xhtml">SE-TM</em>生存期模型是应用于软件工程专业教学的开发类型软件项目生存期模型的简写。</解释>
+			<术语>SEPG</术语><解释>软件过程工程化组织(Software Engineering Process Group)简称。</解释></定义与缩写>
+			<参考资料>
+				<条目></条目>
+			</参考资料>
+		</引言>
+	</首部>
+	<软件开发生存期>
+		<软件开发模型>瀑布模型</软件开发模型>
+	</软件开发生存期>
+	<阶段定义>
+		<阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.1项目计划过程</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div><font size="2" face="宋体">参与人员</font></div>
+<div><font size="2" face="宋体">       - 项目经理</font></div>
+<div><font size="2" face="宋体">       - 需求协调员</font></div>
+<div><font size="2" face="宋体">       - 若干开发组成员（若需要）</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">进入条件</font></div>
+<div><font size="2" face="宋体">       - 由项目经理下达任务书</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输入</font></div>
+<div><font size="2" face="宋体">       - 用户背景材料</font></div>
+<div><font size="2" face="宋体">       - 用户需求和商务条件</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">活动</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">由本阶段参与人员分析提供的输入，对项目的技术要求进行分析。</li></ul>
+<div><font size="2" face="宋体">       - 项目经理根据分析结果决策是否承接此项目</font></div>
+<div><font size="2" face="宋体">       - 若承接此项目，则：</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">项目主管与用户签订商务合同</li>
+<li align="justify">项目经理制定初步的项目计划，包括总的预算估计和资源需求估计。</li></ul></ul>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输出</font></div>
+<div><font size="2" face="宋体">       - 项目可行性分析报告</font></div>
+<div><font size="2" face="宋体">       - 项目承接完成报告</font></div>
+<div><font size="2" face="宋体">若审批同意承接此项目且商务谈判成功，则输出还应包括：</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">       - 合同</font></div>
+<div><font size="2" face="宋体">       - 初步项目计划</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">完成标志</font></div>
+<div><font size="2" face="宋体">    - 完成“项目承接完成报告”并经项目主管批准。</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">评审与审计</font></div>
+<div><font size="2" face="宋体">       - 由项目主管负责评审可行性分析报告并根据评审的结果审批所有该阶段输出。</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">度量</font></div>
+<div><font size="2" face="宋体">       - 项目承接成本</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">承接过程时间</li>
+<li align="justify">所使用的人力资源</li>
+<li align="justify">所使用的设备资源</li>
+<li align="justify">所使用的设施资源</li>
+<li align="justify">直接费用（差旅、招待等）</li></ul></ul></ul></ul>
+<div><font size="2" face="宋体">       - 项目承接成功率（统计度量）</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">执行程序</font></div>
+<div><font size="2" face="宋体">       - SE-TM软件开发项目承接可行性分析步骤</font></div>
+<div><font size="2" face="宋体">       - 初步项目计划制定程序</font></div>
+<div><font size="2" face="宋体">培训</font></div>
+<div><font size="2" face="宋体">       -SE-TM软件开发项目承接可行性分析方法培训</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">工具</font></div>
+<div><font size="2" face="宋体">       -WORD文档框架，用于：</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc" start="1">
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">项目可行性分析报告</li>
+<li align="justify">项目承接完成报告</li>
+<li align="justify">合同</li>
+<li align="justify">初步项目计划</li></ul></ul></ul></ul>
+<div><font size="2" face="宋体">       -MS Project Manager</font></div>
+<div><font size="2" face="宋体">       </font></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  </div></阶段说明>
+	<阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.2需求规格定义</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div><font size="2" face="宋体">参与人员</font></div>
+<div><font size="2" face="宋体">       - 项目经理</font></div>
+<div><font size="2" face="宋体">       - 需求协调员</font></div>
+<div><font size="2" face="宋体">       - 开发组长</font></div>
+<div><font size="2" face="宋体">       - 系统组成员</font></div>
+<div><font size="2" face="宋体">       - 测试组</font></div>
+<div><font size="2" face="宋体">       - SCM组</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">进入条件</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">项目承接阶段完成，签订项目合同。</li></ul>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输入</font></div>
+<div><font size="2" face="宋体">       - 合同中有关需求定义的附件</font></div>
+<div><font size="2" face="宋体">       - 合同有关技术和其它对项目要求方面的条款</font></div>
+<div><font size="2" face="宋体">       - 初步项目计划</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">活动</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">项目经理组织系统分析组分解需求定义，对不明确的地方通过规需求协调<font size="2" face="宋体">员和项目经理与用户协调，并形成符合规范要求的需求规格说明书。</font></li>
+<li align="justify">项目经理负责，系统分析组、QA组和SCM组成员共同参加对需求规格说明书的评审。如未通过，则进入修改需求规程。</li>
+<li align="justify">如评审通过，则项目经理根据需求规格说明书和初步项目计划，制定项目计划；scm成员根据需求规格说明书制定软件配置管理计划并确定需求规格配置项，形成配置项表；SA成员制定培训大纲；</li>
+<li align="justify">项目主管审批项目计划。</li>
+<li align="justify">项目经理组织评审并审批配置管理计划和培训大纲</li>
+<li align="justify">若项目计划、配置管理计划和培训大纲得到批准，则SQA成员依据上述计划，制定软件质量保证计划。</li>
+<li align="justify">SCM组成员将基线产品：需求规格说明书和软件配置项表纳入配置管理。</li></ul>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输出</font></div>
+<div><font size="2" face="宋体">- 需求规格说明书（基线产品）</font></div>
+<div><font size="2" face="宋体">       - 项目开发计划</font></div>
+<div><font size="2" face="宋体">   - 软件配置管理计划</font></div>
+<div><font size="2" face="宋体">     - 培训大纲</font></div>
+<div><font size="2" face="宋体">       - 软件质量保证计划</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表（基线产品）</font></div>
+<div><font size="2" face="宋体">       </font></div>
+<div><font size="2" face="宋体">完成标志</font></div>
+<ul style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="disc">
+<li align="justify">项目主管批准项目开发计划</li>
+<li align="justify">项目经理批准软件管理计划</li>
+<li align="justify">项目经理批准的培训计划</li>
+<li align="justify">项目经理批准软件质量保证计划</li>
+<li align="justify">项目经理批准软件配置项表初步冻结</li>
+<li align="justify"></li></ul>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">评审与审计</font></div>
+<div><font size="2" face="宋体">       - 每周按初步计划进行管理性评审。</font></div>
+<div><font size="2" face="宋体">       - 由项目经理组织相关人员对需求规格说明书进行评审</font></div>
+<div><font size="2" face="宋体">       - 由项目经理组织相关人员对软件配置管理计划、、培训大纲、软件质量保计</font><font size="2" face="宋体">划进行评审。</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表完成后，由项目经理组织系统组和QA组进行评审，并根据评</font><font size="2" face="宋体">审，结果确定是否初步冻结。</font></div>
+<div><font size="2" face="宋体">       - 项目开发计划完成后，由项目主管审查批准。</font></div>
+<div><font size="2" face="宋体">       - 发生特殊事件的评审</font></div>
+<div><font size="2" face="宋体">度量</font></div>
+<div><font size="2" face="宋体">       - 完成时间与计划时间</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表在初步冻结前的评审次数</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表每次评审修改数量（已涉及的软件配置项为单位）</font></div>
+<div><font size="2" face="宋体">       - 定义的软件配置项个数</font></div>
+<div><font size="2" face="宋体">       - 开发计划的修改次数</font></div>
+<div><font size="2" face="宋体">       - 开发计划每次修改的条款数量</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">执行程序</font></div>
+<div><font size="2" face="宋体"><em>       - </em>需求规格定义程序 </font></div>
+<div><font size="2" face="宋体">       - 软件配置管理程序</font></div>
+<div><font size="2" face="宋体">       - 项目计划制订程序</font></div>
+<div><font size="2" face="宋体">       - 软件质量保证计划制订程序</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体"><em>工具</em></font></div>
+<div><font size="2" face="宋体">       - WORD文档框架，用于：</font></div>
+<div><font size="2" face="宋体">         软件配置项表</font></div>
+<div><font size="2" face="宋体">         项目计划格式</font></div>
+<div><font size="2" face="宋体">         需求规格说明书格式</font></div>
+<div><font size="2" face="宋体">         软件配置管理计划格式</font></div>
+<div><font size="2" face="宋体">         软件质量保证计划格式</font></div>
+<div><font size="2" face="宋体">         培训大纲格式</font></div>
+<div><font size="2" face="宋体">       - MS Project Manager</font></div>
+<div><font size="2" face="宋体">       - 软件配置管理工具</font></div></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.3系统设计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div><font size="2" face="宋体">参与人员</font></div>
+<div><font size="2" face="宋体">       - 项目经理</font></div>
+<div><font size="2" face="宋体">       - 开发组长</font></div>
+<div><font size="2" face="宋体">       - 系统组成员</font></div>
+<div><font size="2" face="宋体">       - QA组长</font></div>
+<div><font size="2" face="宋体">       - QA组成员</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">进入条件</font></div>
+<div><font size="2" face="宋体">       - 项目计划被批准</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表作为基线产品初步冻结</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输入</font></div>
+<div><font size="2" face="宋体">       - 需求规格说明书</font></div>
+<div><font size="2" face="宋体">       - 软件配置项表</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">活动</font></div>
+<div><font size="2" face="宋体">       - 系统组进行系统设计</font></div>
+<div><font size="2" face="宋体">       - 若在设计中发现软件配置项表中有问题，提交QA组解决</font></div>
+<div><font size="2" face="宋体">       - QA组制定系统确认测试计划</font></div>
+<div><font size="2" face="宋体">       - 若在系统确认测试计划制订过程发现软件配置项表中有问题，加以解决</font></div>
+<div><font size="2" face="宋体">       - 冻结软件配置项表</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输出</font></div>
+<div><font size="2" face="宋体">       - 冻结的软件配置项表</font></div>
+<div><font size="2" face="宋体">       - 系统设计说明书（基线产品）</font></div>
+<div><font size="2" face="宋体">       - 系统确认测试计划</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">完成标志</font></div>
+<div><font size="2" face="宋体">       - 项目经理批准系统设计说明书初步冻结</font></div>
+<div><font size="2" face="宋体">       - 项目经理批准系统确认测试计划</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">评审与审计</font></div>
+<div><font size="2" face="宋体">       - 每周按项目计划进行管理性评审。</font></div>
+<div><font size="2" face="宋体">       - 项目经理主持系统设计说明书初步冻结的评审</font></div>
+<div><font size="2" face="宋体">       - 项目经理主持系统确认测试计划的评审</font></div>
+<div><font size="2" face="宋体">       - 项目经理主持软件配置项表冻结评审</font></div>
+<div><font size="2" face="宋体">       - 发生特殊事件的评审</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">度量</font></div>
+<div><font size="2" face="宋体">       - 完成时间与计划时间</font></div>
+<div><font size="2" face="宋体">       - 系统设计评审修改次数</font></div>
+<div><font size="2" face="宋体">       - 初步冻结未通过进行修改的工作量（按人天计算）</font></div>
+<div><font size="2" face="宋体">       - 初步设计说明书规模（页数，模块数/对象类数，程序单元文件夹数，全局文件数，数据库表数）</font></div>
+<div><font size="2" face="宋体">       - 系统确认测试计划的评审修改次数</font></div>
+<div><font size="2" face="宋体">       - 系统确认测试计划的评审未通过后进行修改的工作量（按人天计算）</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">执行程序</font></div>
+<div><font size="2" face="宋体">       - 系统设计程序</font></div>
+<div><font size="2" face="宋体">       - 系统确认测试计划制订程序</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">工具</font></div>
+<div><font size="2" face="宋体">       - WORD文档框架，用于：</font></div>
+<div><font size="2" face="宋体">           系统设计说明书</font></div>
+<div><font size="2" face="宋体">           系统确认测试计划</font></div>
+<div><font size="2" face="宋体">       - 软件配置管理工具</font></div></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.4详细设计</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<div><font size="2" face="宋体">参与人员</font></div>
+<div><font size="2" face="宋体">       - 项目经理</font></div>
+<div><font size="2" face="宋体">       - 开发组长</font></div>
+<div><font size="2" face="宋体">       - 系统组成员</font></div>
+<div><font size="2" face="宋体">       - 程序组成员</font></div>
+<div><font size="2" face="宋体">       - QA组长</font></div>
+<div><font size="2" face="宋体">       - QA组成员</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">进入条件</font></div>
+<div><font size="2" face="宋体">       - 系统设计说明书初步冻结</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输入</font></div>
+<div><font size="2" face="宋体">       - 系统设计说明书</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">活动</font></div>
+<div><font size="2" face="宋体">       - 程序组以系统设计说明书程序单元文件夹为单位进行详细设计分析和描述</font></div>
+<div><font size="2" face="宋体">       - 若程序组发现系统设计问题，提交系统组解决</font></div>
+<div><font size="2" face="宋体">       - QA组根据系统设计说明书系统结构制订单元组装测试计划</font></div>
+<div><font size="2" face="宋体">       - 若QA组发现发现系统设计问题，提交系统组解决</font></div>
+<div><font size="2" face="宋体">       - 冻结系统设计</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">输出</font></div>
+<div><font size="2" face="宋体">       - 冻结的系统设计</font></div>
+<div><font size="2" face="宋体">       - 包含详细设计的程序单元文件夹文件</font></div>
+<div><font size="2" face="宋体">       - 单元组装测试计划</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">完成标志</font></div>
+<div><font size="2" face="宋体">       - 系统设计冻结</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">评审与审计</font></div>
+<div><font size="2" face="宋体">       - 每周按项目计划进行管理性评审。</font></div>
+<div><font size="2" face="宋体">       - 项目经理主持系统设计说明书冻结的评审</font></div>
+<div><font size="2" face="宋体">       - 项目经理主持产品单元组装测试计划的评审</font></div>
+<div><font size="2" face="宋体">       - 开发组长主持详细设计评审</font></div>
+<div><font size="2" face="宋体">       - 发生特殊事件的评审</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">度量</font></div>
+<div><font size="2" face="宋体">       - 完成时间与计划时间</font></div>
+<div><font size="2" face="宋体">       - 平均程序单元完成详细设工作量，最大量和最小量（按人天计算）</font></div>
+<div><font size="2" face="宋体">       - 评审未通过的程序单元错误率</font></div>
+<div><font size="2" face="宋体">       - 为冻结系统设计说明书进行修改的工作量（按人天计算）</font></div>
+<div><font size="2" face="宋体">       - 单元组装测试计划的评审修改次数</font></div>
+<div><font size="2" face="宋体">       - 单元组装测试计划的评审未通过后进行修改的工作量（按人天计算）</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">执行程序</font></div>
+<div><font size="2" face="宋体">       - 详细设计步骤</font></div>
+<div><font size="2" face="宋体">       - 单元组装测试计划制订程序</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">培训</font></div>
+<div><font size="2" face="宋体">       - 程序详细设计方法</font></div>
+<div><font size="2" face="宋体">       - 单元组装测试</font></div>
+<div><font size="2" face="宋体"></font> </div>
+<div><font size="2" face="宋体">工具</font></div>
+<div><font size="2" face="宋体">       - WORD文档框架，用于：</font></div>
+<div><font size="2" face="宋体">           程序单元文件夹</font></div>
+<div><font size="2" face="宋体">           单元组装测试计划</font></div>
+<div><font size="2" face="宋体">       - 软件配置管理工具</font></div></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.5编码</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">参与人员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 项目经理</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 开发组长</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 程序组成员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">进入条件</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 系统设计完成</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 详细设计完成</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输入</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 完成详细设计的程序单元文件夹</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">活动</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 程序组程序单元进行编程</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 程序组进行测试</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输出</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 包含源程序的程序单元文件夹</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 集成后的系统版本</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">完成标志</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 初步冻结的程序单元提交</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">评审与审计</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 每周按项目计划进行管理性评审。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 项目开发组长抽查初步冻结的程序单元</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 发生特殊事件的评审</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">度量</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 完成时间与计划时间</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">执行程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 程序编码和测试步骤</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 编程工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 测试工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">       - 配置管理工具</font></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.6系统测试</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">参与人员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目经理</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 开发组长</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 系统组成员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 程序组成员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">进入条件</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 程序单元文件夹详细设计完成</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输入</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 程序单元组装测试计划</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 系统确认测试计划</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 完成编码的程序单元文件夹</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">活动</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 由测试组进行组装测试</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 若发现错误：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>发布组装测试错误报告，</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>由相应人员修改错误，</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>返回前一步。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 由测试组进行系统确认测试</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 若发现错误：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>发布确认测试错误报告，</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>由相应人员修改错误，</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>返回前一步。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输出</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 组装测试错误报告</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 组装测试错误修改报告</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 测试通过的源程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">完成标志</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 单元组装测试通过</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 系统确认测试通过</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">评审与审计</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 每周按项目计划进行管理性评审。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 程序单元组装测试完成评审</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">度量</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 完成时间与计划时间</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 源程序代码行</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">执行程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 程序单元组装测试程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 规格确认测试程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- WORD文档框架，用于：</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>。组装测试错误报告</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>。组装测试错误修改报告</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 软件配置管理工具</font></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.7产品交付</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">参与人员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目经理</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 开发组长</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">进入条件</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 源程序冻结评审通过</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输入</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 冻结的源程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">活动</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 由程序组编制生成程序以通过冻结的源程序生成出用户所需的目标程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 生成用户所需的目标程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 由项目经理完成项目总结</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输出</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 用户所需的产品包</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目总结</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">完成标志</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 用户签收符合其合同要求的产品包</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 完成项目总结</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">评审与审计</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">- 按管理计划的定期评审</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">- 由项目主管评审批准项目总结</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">度量</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 完成时间与计划时间</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目总的开发工作量（按人月计算）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目总的开发成本（按人民币千元计算）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">执行程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 产品交付程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 配置管理工具</font></div></阶段说明><阶段说明><div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.8维护</div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">参与人员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 项目经理</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 开发组长</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 其他有关人员</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">进入条件</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 用户提出修改要求</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输入</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 用户提供的书面修改要求</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">活动</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 由规格协调员确认用户书面修改要求</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 市场部确定修改要求的商务条件</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 按计划实施修改</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">输出</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 用户修改要求及修改内容</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">完成标志</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 根据修改计划。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">评审与审计</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 根据修改计划。</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">度量</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 计划时间与实际完成时间</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 修改工作量（按人天计算）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 修改成本（按人民币元计算）</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">执行程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 软件配置管理程序</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体">工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"><font size="2" face="宋体">       </font>- 软件配置管理工具</font></div>
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><font size="2" face="宋体"></font> </div></阶段说明></阶段定义>
+	<总结>
+		<生存期><div xmlns="http://www.w3.org/1999/xhtml">
+<div><font size="3" face="宋体">项目承接 <font style="FONT-SIZE: small"></font><font size="3" face="宋体"><img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/67638241f3304123" width="43" height="9" v:shapes="_x0000_s1050" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/></font>需求规格定义 <img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/a42ec58ffab742f0" width="43" height="9" v:shapes="_x0000_s1035" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/>系统设计 <img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/88d68efc29714c66" width="43" height="9" v:shapes="_x0000_s1034" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/>详细设计 <img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 35px" src="msoinline/ffc1fca9ea1c44ed" width="35" height="9" v:shapes="_x0000_s1033" xd:inline="R0lGODlhIwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQAhAAYAgAAAAAAAAAIXhI+py+0ZQHx0hXuu3rz7XYWGJobTUQAAOw==" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/></font></div>
+<div><font size="3" face="宋体">编码调试 </font><font size="3" face="宋体"><img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/56555ad0e52d40c7" width="43" height="9" v:shapes="_x0000_s1050" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/>系统测试 <img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/8ca7b21be12456f" width="43" height="9" v:shapes="_x0000_s1050" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/> 产品交付<img tabIndex="-1" style="HEIGHT: 9px; WIDTH: 43px" src="msoinline/9f6763e8dbe042b2" width="43" height="9" v:shapes="_x0000_s1050" xd:inline="R0lGODlhKwAJAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAAAAQApAAYAgAAAAAAAAAIZhI+py+3vApCw1oAP3rz7D3LWyGzkiVBHAQA7" xmlns:v="urn:v" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003"/>产品维护  </font><br clear="all"/></div>
+<div><font size="3" face="宋体">                                                          </font></div></div></生存期>
+		<计划点><ol style="MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px" type="1" xmlns="http://www.w3.org/1999/xhtml" NDListNewStart="true">
+<li>项目承接阶段：初步项目计划</li>
+<li>规格分析阶段：软件质量保证计划、软件配置管理计划、培训大纲</li>
+<li>系统设计阶段：系统确认测试计划</li>
+<li>详细设计阶段：单元测试计划、系统集成测试计划</li>
+<li>系统测试阶段：交付测试计划</li></ol></计划点>
+		<基线点><img xmlns="http://www.w3.org/1999/xhtml" tabIndex="-1" style="HEIGHT: 186px; WIDTH: 546px" src="msoinline/5e96b9b31003463e" xd:inline="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"/></基线点>
+		<配置管理点><img xmlns="http://www.w3.org/1999/xhtml" tabIndex="-1" style="HEIGHT: 157px; WIDTH: 547px" src="msoinline/320e0c07f1a64cc5" xd:inline="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"/></配置管理点>
+		<测试相关点><img xmlns="http://www.w3.org/1999/xhtml" tabIndex="-1" style="HEIGHT: 167px; WIDTH: 546px" src="msoinline/6692cbb82f1d4bbc" xd:inline="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"/></测试相关点>
+		<评审点><img xmlns="http://www.w3.org/1999/xhtml" tabIndex="-1" style="HEIGHT: 182px; WIDTH: 547px" src="msoinline/8f7cc28ba8bf4384" xd:inline="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"/></评审点>
+	</总结>
+</软件过程定义>
